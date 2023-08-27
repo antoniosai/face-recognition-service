@@ -1,0 +1,12 @@
+version: "3"
+services:
+  face-recognition:
+    image: antoniosai/face-recognition-service:latest
+    container_name: face-recognition-service
+    ports:
+      - "5000:5000"
+    volumes:
+      - known_faces_data:/app/known_faces
+
+volumes:
+  known_faces_data:
