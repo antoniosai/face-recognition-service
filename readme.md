@@ -11,4 +11,4 @@ Allows you to check if the both of images is similar or not by just sending thro
 
 After running command above. You can access it directly through Postman or just with Your own Application. 
 
-![Example 1: How to Use It](//TODO: Enter Image URL here)
+![Example 1: How to Use It](https://raw.githubusercontent.com/antoniosai/face-recognition-service/master/screenshot/screenshot-1.png)
