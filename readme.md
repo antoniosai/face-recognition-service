@@ -1,5 +1,5 @@
 # Face Recognition Service
-Allows you to check if the both of images is similar or not by just sending through HTTP Form Data. Built with [Python 3.8](https://www.python.org/downloads/release/python-380/), [Flask 2.3.3](https://flask.palletsprojects.com/en/2.3.x/), [Face Recognition](https://pypi.org/project/face-recognition/)
+A Stateless Service/ Application that allows you to check if the both of images is similar or not by just sending through HTTP Form Data. Built with [Python 3.8](https://www.python.org/downloads/release/python-380/), [Flask 2.3.3](https://flask.palletsprojects.com/en/2.3.x/), [Face Recognition](https://pypi.org/project/face-recognition/)
 
 ## Pull Docker Image
 
@@ -17,7 +17,7 @@ After running command above. You can access it directly through Postman or just 
 	    image: your image location. This must contain file (jpg, png),
 	    url: url location to be compared. Just URL string
     }
-    
+
 ![Example 1: How to Use It](https://raw.githubusercontent.com/antoniosai/face-recognition-service/master/screenshot/screenshot-1.png)
 
 ### With cURL 
