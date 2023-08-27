@@ -23,3 +23,7 @@ After running command above. You can access it directly through Postman or just 
 ### With cURL 
 
     curl -X POST -F "url=https://example.com/image.jpg" -F "image=@/path/to/image1.jpg" http://localhost:5000/compare
+
+## License
+
+This Project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
