@@ -52,9 +52,9 @@ def compare_images():
         formatted_datetime = current_datetime.strftime('%Y-%m-%d %H:%M:%S')
 
         if result != 1:
-            return jsonify({"message": "Not OK! They are not even similar!", "result": False, "time": formatted_datetime}), 200
+            return jsonify({"message": "Not OK! They are not even similar!", "result": False, "time": formatted_datetime}), 422
         else:
-            return jsonify({"message": "Accepted! Both of Images are similar!", "result":  True, "time": formatted_datetime}), 422
+            return jsonify({"message": "Accepted! Both of Images are similar!", "result":  True, "time": formatted_datetime}), 200
 
         
     except Exception as e:
